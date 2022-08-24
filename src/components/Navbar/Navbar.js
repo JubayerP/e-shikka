@@ -3,21 +3,32 @@ import {BiSearch} from 'react-icons/bi'
 
 const Navbar = () => {
     return (
-        <nav className='flex justify-between items-center mx-16 h-16'>
-            <div>
-                <ul className='flex items-center font-medium'>
-                    <li className='mr-8 hover:text-[#32D78B] duration-100'><a href="#">Course</a></li>
-                    <li className='mr-8 hover:text-[#32D78B] duration-100'><a href="#">Mentor</a></li>
-                    <li className='mr-8 hover:text-[#32D78B] duration-100'><a href="#">About</a></li>
-                    <li className='mr-8 hover:text-[#32D78B] duration-100'><a href="#">Pricing</a></li>
+        <nav class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Courses</a></li>
+                        <li><a>Mentor</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pricing</a></li>
+                    </ul>
+                </div>
+            <div class="navbar-center hidden lg:flex ml-20">
+                <ul class="menu menu-horizontal p-0">
+                    <li><a>Courses</a></li>
+                    <li><a>Mentor</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pricing</a></li>
                 </ul>
             </div>
-            <div className='mr-36'>
-                <h1 className="text-3xl font-bold text-[#32D78B]">E-Shikka</h1>
             </div>
-            <div className='flex items-center justify-around w-36'>
-                <BiSearch size={20} className='cursor-pointer'/>
-                <button className='py-2 px-4 rounded-lg bg-[#E96B3B] text-white font-medium'>Sign Up</button>
+                <h1 class="text-3xl font-bold w-[9rem] text-[#32D78B]">E-Shikka</h1>
+            <div class="navbar-end mr-14">
+            <BiSearch size={20} className='cursor-pointer mr-5'/>
+                <a class="py-2 px-4 bg-[orange] rounded-lg cursor-pointer text-white font-medium">Get started</a>
             </div>
         </nav>
     );
