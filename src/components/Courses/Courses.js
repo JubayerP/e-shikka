@@ -22,7 +22,7 @@ const Courses = () => {
             </div>
 
             {/* Cards */}
-            <div className='grid grid-cols-3 gap-7'>
+            <div className='grid grid-cols-3 gap-7 mx-[10%] mt-20'>
                 {
                     courses.map(course => <Course course={ course} key={course.id} />)
                 }
