@@ -28,7 +28,7 @@ const Navbar = () => {
             </div>
             <h1 className="text-3xl font-bold lg:w-[9rem] w-[14rem] text-[#32D78B]">E-Shikka</h1>
             <div className="navbar-end mr-14">
-                <BiSearch size={20} className='cursor-pointer mr-5' />
+                <BiSearch size={20} className='cursor-pointer lg:mr-5' />
                 <a className="py-2 px-4 bg-[orange] rounded-lg cursor-pointer text-white font-medium hidden lg:block">Get Started</a>
             </div>
         </nav>
