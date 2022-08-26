@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Courses from './components/Courses/Courses';
 import Rules from './components/Rules/Rules';
 import Plans from './components/Plans/Plans';
+import Features from './components/Features/Features';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Courses />
       <Rules />
       <Plans />
+      <Features />
     </div>
   );
 }
