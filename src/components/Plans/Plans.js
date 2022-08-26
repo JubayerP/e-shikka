@@ -13,18 +13,18 @@ const Plans = () => {
                 <input type="checkbox" class="toggle mr-5" checked />
                 <h3 className="text-xl font-bold">Yearly</h3>
             </div>
-            <div className='flex justify-center lg:flex-row flex-col mt-10'>
-                <div class="card w-96 bg-base-100 shadow-xl mr-5 lg:mb-0 mb-8">
+            <div className='flex justify-center items-center lg:flex-row flex-col mt-10'>
+                <div class="card lg:w-96 w-[80%] bg-base-100 shadow-xl lg:mr-5 lg:mb-0 mb-8">
 
                     <div class="card-body items-center text-center">
                         <h2 class="card-title">Standerd</h2>
-                        <h1 className="text-3xl font-bold text-orange-600">$199<span className='text-xs text-gray-500'> / Yearly</span></h1>
+                        <h1 className="text-4xl font-bold text-orange-600">$199<span className='text-xs text-gray-500'> / Yearly</span></h1>
                         <div className='text-start my-16'>
                            <div className='flex items-center mb-5'><HiOutlineX color='orange' size={22} className='mr-3'/> <p className=''>Unlimited Courses in a Month</p></div>
                            <div className='flex items-center mb-5'><HiCheck size={22} color={'#32D78B'} className='mr-3'/><p className=''>Unlimited Notes in a Year</p></div>
                            <div className='flex items-center mb-5'><HiOutlineX color='orange' size={22} className='mr-3'/> <p className=''>100 Forum in a Month</p></div>
                            <div className='flex items-center mb-5'><HiCheck size={22} color={'#32D78B'} className='mr-3'/> <p className=''>Best Teacher Take Lessons</p></div>
-                           <div className='flex items-center mb-5'><HiCheck size={22} color={'#32D78B'} className='mr-3'/> <p>24/7 Strong Support</p></div>
+                           <div className='flex items-center'><HiCheck size={22} color={'#32D78B'} className='mr-3'/> <p>24/7 Strong Support</p></div>
                         </div>
                         <div class="card-actions">
                             <button class="btn btn-outline border-[#32D78B] hover:border-[#32D78B] hover:bg-[#32D78B]">Enroll Now</button>
@@ -32,11 +32,11 @@ const Plans = () => {
                     </div>
                 </div>
 
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card lg:w-96 w-[80%] bg-base-100 shadow-xl">
 
-                    <div class="card-body items-center text-center">
+                    <div class="card-body  items-center text-center">
                         <h2 class="card-title">Premium</h2>
-                        <h1 className="text-3xl font-bold text-orange-600">$299<span className='text-xs text-gray-500'> / Yearly</span></h1>
+                        <h1 className="text-4xl font-bold text-orange-600">$299<span className='text-xs text-gray-500'> / Yearly</span></h1>
                         <div className='text-start my-16'>
                            <div className='flex items-center mb-5'><HiCheck size={22} color={'#32D78B'} className='mr-3'/> <p className=''>Unlimited Courses in a Month</p></div>
                            <div className='flex items-center mb-5'><HiCheck size={22} color={'#32D78B'} className='mr-3'/><p className=''>Unlimited Notes in a Year</p></div>
